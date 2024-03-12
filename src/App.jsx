@@ -5,7 +5,6 @@ import {
   SpecialOffer,
   Subscribe,
   Footer,
-  CustomerReviews,
   Hero,
 } from "./sections";
 import Nav from "./components/Nav";
@@ -27,9 +26,6 @@ const App = () => (
     </section>
     <section className="padding ">
       <SpecialOffer />
-    </section>
-    <section className="padding  bg-pale-blue">
-      <CustomerReviews />
     </section>
     <section className="padding-x sm:py-32 py-16 w-full ">
       <Subscribe />
