@@ -17,8 +17,8 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
         <img
           src={imgURL.thumbnail}
           alt="shoe collection"
-          width={127}
-          height={103}
+          width={130}
+          height={120}
           className="object-contain"
         />
       </div>
