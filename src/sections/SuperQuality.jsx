@@ -4,9 +4,9 @@ const SuperQuality = () => {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
+      className=" flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
-      <div className="flex flex-1 flex-col">
+      <div className="flex  flex-1 flex-col">
         <h2 className="font-palanquin capitalize text-4xl lg:max-w-lg font-bold">
           We Provide You
           <span className="text-coral-red"> Super </span>
@@ -25,7 +25,7 @@ const SuperQuality = () => {
         </div>
       </div>
 
-      <div className="flex-1 flex justify-center items-center">
+      <div className="drop-shadow-lg flex-1 flex justify-center items-center">
         <img
           src={shoe8}
           alt="product detail"

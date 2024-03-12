@@ -3,7 +3,7 @@ import PopularProductCard from "../components/PopularProductCard";
 
 const PopularProducts = () => {
   return (
-    <section id="products" className=" max-conatiner max-sm:mt-12">
+    <section id="products" className=" justify-centermax-conatiner max-sm:mt-12">
       <div className="flex flex-col justify-normalgap-5">
         <h2 className="text-4xl font-palaquin font-bold">
           {" "}
