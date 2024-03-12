@@ -3,7 +3,10 @@ import PopularProductCard from "../components/PopularProductCard";
 
 const PopularProducts = () => {
   return (
-    <section id="products" className=" justify-centermax-conatiner max-sm:mt-12">
+    <section
+      id="products"
+      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
+    >
       <div className="flex flex-col justify-normalgap-5">
         <h2 className="text-4xl font-palaquin font-bold">
           {" "}

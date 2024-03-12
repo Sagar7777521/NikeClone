@@ -3,8 +3,8 @@ import { offer } from "../assets/images";
 import Buttons from "../components/Buttons";
 const SpecialOffer = () => {
   return (
-    <section className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
-      <div className="flex-1">
+    <section className=" drop-shadow-sm flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
+      <div className=" drop-shadow-lg flex-1">
         <img
           src={offer}
           alt="Shoe Promotion"
@@ -28,13 +28,14 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
+        <div className="  drop-shadow-sm mt-11 flex flex-wrap gap-4">
           <Buttons label="Shop now" iconURL={arrowRight} />
           <Buttons
             label="Learn more"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"
             textColor="text-slate-gray"
+            className="drop-shadow-sm"
           />
         </div>
       </div>
